@@ -61,4 +61,4 @@ build_and_push_to_docker_hub:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ${{ secrets.DCKR_USERNAME }}/ваш-репозиторий-на-docker-hub:latest 
+          tags: gwaimui/sprint12study:latest 
